@@ -1,48 +1,47 @@
 # RuyiSDK
 
-## Introduction
+## 介绍
 
-RuyiSDK is a product plan for an all-in-one RISC-V integrated development environment. Starting from 2023, it plans to provide RISC-V developers with a complete, full-stack, and fully-functional development environment within three years, including a full suite of tools from compilation, debugging to simulation, and plans to support the mainstream RISC-V development boards on the market.
+RuyiSDK 是一个一体化RISC-V集成开发环境的产品计划。从 2023 年开始筹备，计划用三年时间为 RISC-V 开发者提供一个完整的、全家桶式的全功能开发环境，包含从编译、调试到仿真的全套工具,并计划支持市面上主流的 RISC-V 开发板。
 
-RuyiSDK mainly includes a component manager (also known as a package manager), a graphical integrated development environment (IDE), and a developer community.
+RuyiSDK 主要包含了一个组件管理器（也称为包管理器）、一个图形化的集成开发环境（IDE）、一个开发者交流社区。
 
-At present, the component manager has integrated common software such as compilation toolchains, debugging tools, and simulator software, and has a supporting management tool ruyi, which can provide developers with a variety of common functions such as package information query, installation, and uninstallation. RISC-V developers can already quickly build a RISC-V development environment through the command line tool ruyi.
+目前，组件管理器已经集成了编译工具链、调试工具、模拟器软件等常用软件，并拥有了配套管理工具 ruyi ，能为开发者提供诸如软件包信息查询、安装、卸载等多种常用功能。RISC-V 开发者已经能够通过命令行工具 ruyi 快速搭建 RISC-V 开发环境。
 
-Furthermore, RuyiSDK also provides a wizard-style system installation tool, which currently supports more than 20 common RISC-V development boards and provides a one-stop image installation service for them.
+此外，RuyiSDK 还提供了一个向导式的系统安装工具，目前已经支持了20余款常见RISC-V开发板，为它们提供一站式镜像安装服务。
 
-The RuyiSDK graphical integrated development environment is still in the planning stage.
+RuyiSDK 图形化集成开发环境还在筹备中。
 
-## Access and Download
+## 访问与下载
 
-Learn about RuyiSDK starting from the [RuyiSDK official website](https://ruyisdk.org/)!
+了解 RuyiSDK 从 [RuyiSDK官网](https://ruyisdk.org/) 开始！
 
-If you want to install the compilation toolchain, debugging tools, simulators, and other software that support RISC-V, you can start with [downloading](https://ruyisdk.org/download/) and using ruyi.
+如果您想要安装支持 RISC-V 的编译工具链、调试工具、模拟器等软件，可从[下载](https://ruyisdk.org/download/) 安装和使用 ruyi 开始。
 
-If you want to install an image for your RISC-V development board, you can use the `ruyi device provision` command to view the RISC-V development boards and the currently available different operating systems for them. This program will guide you through the device selection, system image selection, and installation. 
+如果您想要为您的 RISC-V 开发板安装镜像，可以通过 `ruyi device provision` 查看RISC-V开发板及其目前所有可用的不同操作系统，该程序将引导您完成设备选择、系统镜像选择和安装。如果您的设备不在支持列表中，可以将需求在 [Discussions](https://github.com/ruyisdk/ruyisdk-website/discussions) 中进行反馈。
 
-If your device is not in the supported list, you can submit your feedback in [Discussions](https://github.com/ruyisdk/ruyisdk-website/discussions).
+如果您想要更广泛的了解RISC-V操作系统对RISC-V开发板适配简况，可以通过 [操作系统支持矩阵](https://github.com/ruyisdk/support-matrix/)了解。
 
-If you want to learn more about the adaptation of RISC-V operating systems to RISC-V development boards, you can check the [Operating System Support Matrix](https://github.com/ruyisdk/support-matrix/).
+## 更新
 
-## Updates
+自2024年1月开始，RuyiSDK 项目采用快速迭代的管理方式，大约每两周发布一个版本（法定节假日顺延）。
 
-Starting from January 2024, the RuyiSDK project adopts a rapid iteration management method, releasing a version approximately every two weeks (postponed during statutory holidays).
+当前，包管理器可通过 [ruyi release](https://github.com/ruyisdk/ruyi/releases) 。
 
-Currently, the package manager can obtain the latest version and version change information through [ruyi release](https://github.com/ruyisdk/ruyi/releases).
+更多内容可关注 [RuyiSDK双周进展汇报](https://github.com/ruyisdk/wechat-articles) 。
 
-More content can be found in the [RuyiSDK BiWeekly Report](https://github.com/ruyisdk/wechat-articles).
+## 使用
 
-## Usage
+ruyi 工具目前支持 x86_64、aarch64、riscv64 三种架构，支持 Debian ([RevyOS](https://github.com/revyos))、Ubuntu、openEuler、Fedora 、ArchLinux 、Gentoo、openKylin 等多种Linux发行版，具有良好的架构兼容性和平台兼容性，请放心地安装使用。
 
-The ruyi tool currently supports x86_64, aarch64, and riscv64 architectures, and supports various Linux distributions such as Debian ([RevyOS](https://github.com/revyos)), Ubuntu, openEuler, Fedora, ArchLinux, Gentoo, and openKylin, it has good architecture compatibility and platform compatibility, please install and use with confidence.
+更多 ruyi [使用文档](https://ruyisdk.github.io/docs/zh/ruyi/)。
 
-More ruyi usage [documentation](https://ruyisdk.github.io/docs/zh/ruyi/).
 
-## Contact
+## 联系
 
-Friends interested in RuyiSDK can follow and join us through the following channels:
+对 RuyiSDK 感兴趣的朋友可以通过以下方式关注和加入我们：
 
-Follow the WeChat public account: RUYISDK
-WeChat discussion group: Add the assistant ruyisdk_helper
-Send an email to [contact@ruyisdk.cn](mailto:contact@ruyisdk.cn)
-Join the [Telegram](https://t.me/ruyisdk) group for further discussion.
+- 关注微信公众号：RUYISDK
+- 微信交流群：添加小助手 ruyisdk_helper
+- 发送邮件至 [contact@ruyisdk.cn](mailto:contact@ruyisdk.cn)
+- 加入 [Telegram群](https://t.me/ruyisdk) 进行进一步讨论
