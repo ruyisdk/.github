@@ -42,7 +42,7 @@ More ruyi usage [documentation](https://ruyisdk.github.io/docs/zh/ruyi/).
 
 Friends interested in RuyiSDK can follow and join us through the following channels:
 
-Follow the WeChat public account: RUYISDK
-WeChat discussion group: Add the assistant ruyisdk_helper
-Send an email to [contact@ruyisdk.cn](mailto:contact@ruyisdk.cn)
-Join the [Telegram](https://t.me/ruyisdk) group for further discussion.
+- Follow the WeChat public account: RUYISDK
+- WeChat discussion group: Add the assistant ruyisdk_helper
+- Send an email to [contact@ruyisdk.cn](mailto:contact@ruyisdk.cn)
+- Join the [Telegram](https://t.me/ruyisdk) group for further discussion.
