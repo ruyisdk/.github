@@ -42,6 +42,4 @@ ruyi 工具目前支持 x86_64、aarch64、riscv64 三种架构，支持 Debian 
 对 RuyiSDK 感兴趣的朋友可以通过以下方式关注和加入我们：
 
 - 关注微信公众号：RUYISDK
-- 微信交流群：添加小助手 ruyisdk_helper
 - 发送邮件至 [contact@ruyisdk.cn](mailto:contact@ruyisdk.cn)
-- 加入 [Telegram群](https://t.me/ruyisdk) 进行进一步讨论
